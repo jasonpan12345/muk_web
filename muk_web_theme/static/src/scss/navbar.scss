@@ -88,7 +88,7 @@
 		    	color: white;
 		    	height: 46px;
 			    line-height: 46px;
-				background: none;
+				background: $mk-brand-gradient;
 				span {
             		padding-left: 15px;
 					font-size: initial;
@@ -105,7 +105,7 @@
 				    border: none;
 		            min-width: auto;
 				    box-shadow: none;
-				    background: none;
+				    background: $mk-brand-gradient;
 				    position: static;
 				    overflow: visible;
 		        }
