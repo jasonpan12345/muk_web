@@ -33,9 +33,13 @@
 }
 
 .o_list_view.table thead {
-	background-color: white;
+	//background-color: white;
+	color: white;
 	th.o_column_sortable:hover {
 	    background-color: white;
+	}
+	> tr > th:hover {
+		color: black !important;
 	}
 }
  
@@ -75,7 +79,7 @@
 	    > .o_list_view {
 	        thead, thead tr:nth-child(1) th {
 	        	border-bottom: solid 1px gray('300');
-	    		background-color: white;
+	    		//background-color: white;
 	            position: sticky !important;
 	            z-index: 1;
 	            top: 0;
